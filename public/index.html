@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <meta
+      name="description"
+      content="Discover products and services in your city with LocalMart."
+    />
+
+    <meta name="theme-color" content="#116b59" />
+
+    <title>LocalMart — Your neighborhood marketplace</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/app.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/" data-link aria-label="LocalMart home">
+          <span class="brand-icon">L</span>
+          Local<span>Mart</span>
+        </a>
+
+        <nav aria-label="Main navigation">
+          <a href="/categories" data-link>Categories</a>
+          <a href="/cities" data-link>Explore cities</a>
+        </nav>
+
+        <div class="header-actions" id="account"></div>
+      </div>
+    </header>
+
+    <main id="app" class="container" tabindex="-1">
+      <div class="empty">Loading marketplace…</div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>LocalMart</strong>
+          <p>Great finds. Local connections.</p>
+        </div>
+
+        <p>Meet locally. Inspect items. Trade safely.</p>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
